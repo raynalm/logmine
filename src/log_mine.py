@@ -17,4 +17,4 @@ class LogMine():
         log("LogMine: run with files:", files)
         clusters = self.processor.process(files)
         log("LogMine: output cluster:", clusters)
-        self.output.out(clusters)
+        self.output.out(clusters, files)
